@@ -1,26 +1,91 @@
 @import "tailwindcss";
 
+/* ========================
+   Light Mode Colors
+======================== */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #eef1f4;
+  --foreground: #0a0d0f;
+
+  --accent: #5ba49f;
+  --accent-light: #a8e3d3;
+  --border: #c8d0d7;
+
+  /* Core colors */
+  --noel-silver: #eef1f4;
+  --noel-steel: #c8d0d7;
+  --noel-darksteel: #8a939c;
+  --noel-black: #0a0d0f;
+
+  /* Accents */
+  --noel-teal: #5ba49f;
+  --noel-teal-bright: #7bd6c8;
+  --noel-mint: #a8e3d3;
+
+  /* Shadows */
+  --noel-shadow-light: rgba(0, 0, 0, 0.08);
+  --noel-shadow-dark: rgba(0, 0, 0, 0.45);
 }
 
+/* ========================
+   Dark Mode Colors
+======================== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0d0f;       /* Dark background */
+    --foreground: #eef1f4;       /* Light text */
+
+    --accent: #7bd6c8;           /* Brighter teal for dark mode */
+    --accent-light: #a8e3d3;     /* Lighter accent hover */
+    --border: #1a1f21;           /* Dark border */
+
+    /* Core colors */
+    --noel-silver: #2a2f34;      /* Darker silver for contrast */
+    --noel-steel: #555c65;
+    --noel-darksteel: #8a939c;
+    --noel-black: #0a0d0f;
+
+    /* Accents */
+    --noel-teal: #7bd6c8;
+    --noel-teal-bright: #a8e3d3;
+    --noel-mint: #a8e3d3;
+
+    /* Shadows */
+    --noel-shadow-light: rgba(255, 255, 255, 0.05);
+    --noel-shadow-dark: rgba(0, 0, 0, 0.45);
+  }
+}
+
+/* ========================
+   Theme Variables
+======================== */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-noel-silver: var(--noel-silver);
+  --color-noel-black: var(--noel-black);
+  --color-noel-darksteel: var(--noel-darksteel);
+  --color-noel-teal: var(--noel-teal);
+  --color-noel-mint: var(--noel-mint);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* ========================
+   Base Styles
+======================== */
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-light);
 }
