@@ -15,7 +15,7 @@ export default function CertCard({ title, issued_by, date_issued, image }: CertC
 
   return (
     <>
-      <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-md rounded-xl shadow-lg overflow-hidden flex flex-col items-center p-6">
+      <div className="bg-[var(--noel-silver)] backdrop-blur-md rounded-xl shadow-lg overflow-hidden flex flex-col items-center p-6">
         
         {image && (
           <img
@@ -51,7 +51,7 @@ export default function CertCard({ title, issued_by, date_issued, image }: CertC
         }`}
       >
         <div
-          className={`bg-white dark:bg-gray-900 rounded-xl shadow-xl max-w-3xl w-full p-6 relative transform transition-all duration-300 ${
+          className={`bg-[var(--noel-silver)] rounded-xl shadow-xl max-w-3xl w-full p-6 relative transform transition-all duration-300 ${
             isOpen ? 'scale-100 opacity-100' : 'scale-90 opacity-0'
           }`}
         >
