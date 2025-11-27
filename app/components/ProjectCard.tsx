@@ -12,7 +12,10 @@ interface CardProps {
 export default function ProjectCard({ title, description, href, image }: CardProps) {
     return (
         <Link href={href}>
-            <div className="w-full sm:w-[300px] md:w-[350px] lg:w-[400px] h-auto bg-[var(--noel-silver)] border border-[var(--noel-darksteel)] shadow-[12px_17px_51px_var(--noel-shadow-dark)] backdrop-blur-sm rounded-[12px] flex flex-col overflow-hidden cursor-pointer select-none transition-transform duration-500 hover:border-[var(--noel-black)] hover:scale-105 active:scale-95 active:rotate-[1.7deg]">
+            <div className="w-full h-auto bg-[var(--noel-silver)] border border-[var(--noel-darksteel)] 
+            shadow-[12px_17px_51px_var(--noel-shadow-dark)] backdrop-blur-sm rounded-[12px] flex flex-col 
+            overflow-hidden cursor-pointer select-none transition-transform duration-500 
+            hover:border-[var(--noel-black)] hover:scale-105 active:scale-95 active:rotate-[1.7deg]">
                 
                 {image && (
                     <img 

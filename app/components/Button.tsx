@@ -1,6 +1,11 @@
 'use client';
 
-export default function Button() {
+interface ButtonProps {
+    label: string;
+    onClick? : () => void;
+}
+
+export default function Button({label, onClick}: ButtonProps) {
     return (
         <button className="
         px-4 py-2 rounded-lg font-medium
@@ -8,8 +13,11 @@ export default function Button() {
         shadow-[0_2px_6px_var(--noel-shadow-light)]
         hover:bg-[var(--noel-teal-bright)]
         transition-all duration-200
-        ">
-            Button
+        "
+
+        onClick={onClick}
+        >
+            {label}
         </button>
     )
 }

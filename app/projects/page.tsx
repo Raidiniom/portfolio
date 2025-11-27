@@ -13,14 +13,14 @@ export default function Projects() {
             </h1>
 
             {/* Project Grid */}
-            <div className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6 w-full max-w-6xl">
+            <div className="grid gap-8 w-full max-w-6xl grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
                 {project_details.map((proj, index) => (
                     <ProjectCard
-                    key={index}
-                    title={proj.title}
-                    description={proj.description}
-                    href={proj.href ?? "#"}
-                    image={proj.image ?? ""}
+                        key={index}
+                        title={proj.title}
+                        description={proj.description}
+                        href={proj.href ?? "#"}
+                        image={proj.image ?? ""}
                     />
                 ))}
             </div>
