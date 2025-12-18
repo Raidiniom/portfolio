@@ -15,9 +15,10 @@ export default function Home() {
                     <div className="bg-noel-silver border border-border rounded-2xl p-8 shadow-lg">
                         <div className="flex flex-col items-center">
                             {/* Profile Image */}
-                            <div className="w-48 h-48 rounded-full bg-gradient-to-br from-noel-teal to-noel-mint mb-6 flex items-center justify-center overflow-hidden">
+                            <div className="w-68 h-68 rounded-full bg-gradient-to-br from-noel-teal to-noel-mint mb-6 flex items-center justify-center overflow-hidden">
                                 <img 
-                                    src="/profile.jpg" 
+                                    // src="/profile.jpg" 
+                                    src="/vercel.svg"
                                     alt="Voltaire Profile" 
                                     className="w-full h-full object-cover"
                                 />
