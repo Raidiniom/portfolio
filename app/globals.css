@@ -1,91 +1,103 @@
 @import "tailwindcss";
 
-/* ========================
-   Light Mode Colors
-======================== */
 :root {
   --background: #eef1f4;
   --foreground: #0a0d0f;
-
   --accent: #5ba49f;
   --accent-light: #a8e3d3;
   --border: #c8d0d7;
-
-  /* Core colors */
   --noel-silver: #eef1f4;
   --noel-steel: #c8d0d7;
   --noel-darksteel: #8a939c;
   --noel-black: #0a0d0f;
-
-  /* Accents */
   --noel-teal: #5ba49f;
   --noel-teal-bright: #7bd6c8;
   --noel-mint: #a8e3d3;
-
-  /* Shadows */
   --noel-shadow-light: rgba(0, 0, 0, 0.08);
   --noel-shadow-dark: rgba(0, 0, 0, 0.45);
+  --noel-success: #10b981;
+  --noel-warning: #f59e0b;
+  --noel-error: #ef4444;
+  --noel-teal-hover: #4a938e;
+  --noel-teal-active: #3c827d;
+  --card-bg: var(--noel-silver);
+  --card-border: var(--border);
+  --button-primary: var(--noel-teal);
+  --button-primary-hover: var(--noel-teal-bright);
+  --text-muted: var(--noel-darksteel);
 }
 
-/* ========================
-   Dark Mode Colors
-======================== */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0d0f;       /* Dark background */
-    --foreground: #eef1f4;       /* Light text */
-
-    --accent: #7bd6c8;           /* Brighter teal for dark mode */
-    --accent-light: #a8e3d3;     /* Lighter accent hover */
-    --border: #1a1f21;           /* Dark border */
-
-    /* Core colors */
-    --noel-silver: #2a2f34;      /* Darker silver for contrast */
+    --background: #0a0d0f;
+    --foreground: #eef1f4;
+    --accent: #7bd6c8;
+    --accent-light: #a8e3d3;
+    --border: #1a1f21;
+    --noel-silver: #2a2f34;
     --noel-steel: #555c65;
     --noel-darksteel: #8a939c;
     --noel-black: #0a0d0f;
-
-    /* Accents */
     --noel-teal: #7bd6c8;
     --noel-teal-bright: #a8e3d3;
     --noel-mint: #a8e3d3;
-
-    /* Shadows */
     --noel-shadow-light: rgba(255, 255, 255, 0.05);
     --noel-shadow-dark: rgba(0, 0, 0, 0.45);
+    --noel-teal-hover: #8ce0d4;
+    --noel-teal-active: #9deadf;
+    --card-bg: var(--noel-silver);
+    --card-border: var(--border);
+    --text-muted: var(--noel-steel);
   }
 }
 
-/* ========================
-   Theme Variables
-======================== */
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
   --color-noel-silver: var(--noel-silver);
-  --color-noel-black: var(--noel-black);
+  --color-noel-steel: var(--noel-steel);
   --color-noel-darksteel: var(--noel-darksteel);
+  --color-noel-black: var(--noel-black);
   --color-noel-teal: var(--noel-teal);
+  --color-noel-teal-bright: var(--noel-teal-bright);
   --color-noel-mint: var(--noel-mint);
+  --color-noel-success: var(--noel-success);
+  --color-noel-warning: var(--noel-warning);
+  --color-noel-error: var(--noel-error);
+  --font-sans: var(--font-geist-sans, ui-sans-serif, system-ui, sans-serif);
+  --font-mono: var(--font-geist-mono, ui-monospace, monospace);
 }
 
-/* ========================
-   Base Styles
-======================== */
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
 
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+::selection {
+  background-color: var(--accent-light);
+  color: var(--noel-black);
+}
+
 a {
   color: var(--accent);
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
   color: var(--accent-light);
+}
+
+button,
+a[role="button"] {
+  transition: all 0.2s ease;
 }
