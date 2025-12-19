@@ -1,6 +1,26 @@
 'use client';
 
 export default function Home() {
+    const programming_lang = [
+        'C',
+        'Java',
+        'Python',
+        'Typescript',
+        'Javascript',
+        'SQL',
+    ]
+
+    const skilltech_list = [
+        'Next.js',
+        'React',
+        'Node.js',
+        'Git',
+        'REST APIs',
+        'Linux OS',
+        'Cisco',
+        'Virtual Machines'
+    ]
+
     return (
         <>
             <div className="min-h-screen flex flex-col items-center px-4 py-12">
@@ -17,14 +37,13 @@ export default function Home() {
                             {/* Profile Image */}
                             <div className="w-68 h-68 rounded-full bg-gradient-to-br from-noel-teal to-noel-mint mb-6 flex items-center justify-center overflow-hidden">
                                 <img 
-                                    // src="/profile.jpg" 
-                                    src="/vercel.svg"
+                                    src="/placeholder_me.jpg" 
                                     alt="Voltaire Profile" 
                                     className="w-full h-full object-cover"
                                 />
                             </div>
                             
-                            <h2 className="text-3xl font-bold text-foreground mb-4">Voltaire</h2>
+                            <h2 className="text-3xl font-bold text-foreground mb-4">Voltaire Ratilla</h2>
                             
                             <div className="text-left w-full">
                                 <h3 className="text-xl font-semibold text-noel-teal mb-3">Introduction:</h3>
@@ -44,24 +63,11 @@ export default function Home() {
                         </h2>
                         
                         <div className="flex flex-wrap gap-3 mb-8">
-                            <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
-                                C
-                            </span>
-                            <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
-                                Java
-                            </span>
-                            <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
-                                Python
-                            </span>
-                            <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
-                                TypeScript
-                            </span>
-                            <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
-                                JavaScript
-                            </span>
-                            <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
-                                SQL
-                            </span>
+                            {programming_lang.map((data, index) => (
+                                <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
+                                    {data}
+                                </span>
+                            ))}
                         </div>
 
                         {/* Additional Skills Section */}
@@ -70,27 +76,13 @@ export default function Home() {
                         </h2>
                         
                         <div className="flex flex-wrap gap-3">
-                            <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
-                                Next.js
-                            </span>
-                            <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
-                                React
-                            </span>
-                            <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
-                                Tailwind CSS
-                            </span>
-                            <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
-                                Node.js
-                            </span>
-                            <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
-                                Git
-                            </span>
-                            <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
-                                REST APIs
-                            </span>
-                            <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
-                                Linux
-                            </span>
+                            <div className="flex flex-wrap gap-3 mb-8">
+                                {skilltech_list.map((data, index) => (
+                                    <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
+                                        {data}
+                                    </span>
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>
