@@ -7,9 +7,10 @@ interface Certprop {
     issued_by: string,
     date_issued: string,
     image: string,
+    pdf?: string,
 }
 
-export default function Certcard({ title, issued_by, date_issued, image }: Certprop) {
+export default function Certcard({ title, issued_by, date_issued, image, pdf }: Certprop) {
     const [isModalOpen, setIsModalOpen] = useState(false);
     
     return (
