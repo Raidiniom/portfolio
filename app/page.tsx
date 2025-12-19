@@ -64,7 +64,7 @@ export default function Home() {
                         
                         <div className="flex flex-wrap gap-3 mb-8">
                             {programming_lang.map((data, index) => (
-                                <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
+                                <span key={index} className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
                                     {data}
                                 </span>
                             ))}
@@ -78,7 +78,7 @@ export default function Home() {
                         <div className="flex flex-wrap gap-3">
                             <div className="flex flex-wrap gap-3 mb-8">
                                 {skilltech_list.map((data, index) => (
-                                    <span className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
+                                    <span key={index} className="px-4 py-2 bg-noel-teal/20 text-noel-teal rounded-full font-medium">
                                         {data}
                                     </span>
                                 ))}
