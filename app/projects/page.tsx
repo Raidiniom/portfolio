@@ -9,6 +9,7 @@
  * - screenshot
  * - name
  * - description
+ * - a link to the repository
  */
 
 import { project_details } from "./data/data";
