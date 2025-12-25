@@ -1,12 +1,4 @@
-export interface Certificate {
-    title: string;
-    issued_by: string;
-    date_issued: string;
-    image: string;
-    pdf?: string;
-}
-
-export const certificate_details: Certificate[] = [
+export const certificate_details = [
     {
         title: "Zuitt Certification of Completion",
         issued_by: "Zuitt",
