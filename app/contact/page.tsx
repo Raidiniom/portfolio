@@ -76,8 +76,8 @@ export default function Contact() {
                 </div>
 
                 {/* Additional Info Section */}
-                {/* <div className="bg-noel-silver border border-border rounded-2xl p-8 max-w-2xl mx-auto">
-                    <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Response Time</h2>
+                <div className="bg-noel-silver border border-border rounded-2xl p-8 max-w-2xl mx-auto">
+                    {/* <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Response Time</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="text-center">
                             <div className="text-3xl font-bold text-noel-teal mb-2">24h</div>
@@ -87,13 +87,13 @@ export default function Contact() {
                             <div className="text-3xl font-bold text-noel-teal mb-2">2-3 days</div>
                             <div className="text-foreground/80">LinkedIn Messages</div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="mt-6 pt-6 border-t border-border text-center">
                         <p className="text-foreground/70">
                             I'm currently open to new opportunities and collaborations. Don't hesitate to reach out!
                         </p>
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     )
