@@ -1,38 +1,20 @@
 export const project_details = [
     {
-        title: "Test 1",
-        description: "This is test 1 description",
-        screenshot: "./certificate_img/placeholder_cert.jpg",
-        link: "",
+        title: "AgriKita",
+        description: "Online Marketplace for Farmers",
+        screenshot: "./project_img/AgriKIta_placeholder.png",
+        link: "https://github.com/Gnashal/AgriKita",
     },
     {
-        title: "Test 2",
-        description: "This is test 2 description",
-        screenshot: "./certificate_img/placeholder_cert.jpg",
-        link: "",
+        title: "Read_Mangakas",
+        description: "Manga, Manwha, and Manhua reading website",
+        screenshot: "./project_img/Read_Mangakas.png",
+        link: "https://github.com/Raidiniom/Read_MangaKas",
     },
     {
-        title: "Test 3",
-        description: "This is test 3 description",
-        screenshot: "./certificate_img/placeholder_cert.jpg",
-        link: "",
+        title: "GameWikia",
+        description: "Game Wiki on an App!",
+        screenshot: "./project_img/placeholder_cert.jpg",
+        link: "https://github.com/Raidiniom/GameWikia",
     },
-    {
-        title: "Test 4",
-        description: "This is test 4 description",
-        screenshot: "./certificate_img/placeholder_cert.jpg",
-        link: "",
-    },
-    {
-        title: "Test 5",
-        description: "This is test 5 description",
-        screenshot: "./certificate_img/placeholder_cert.jpg",
-        link: "",
-    },
-    {
-        title: "Test 6",
-        description: "This is test 6 description",
-        screenshot: "./certificate_img/placeholder_cert.jpg",
-        link: "",
-    }
 ]
