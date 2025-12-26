@@ -76,7 +76,7 @@ export default function Contact() {
                 </div>
 
                 {/* Additional Info Section */}
-                <div className="bg-noel-silver border border-border rounded-2xl p-8 max-w-2xl mx-auto">
+                {/* <div className="bg-noel-silver border border-border rounded-2xl p-8 max-w-2xl mx-auto">
                     <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Response Time</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="text-center">
@@ -93,7 +93,7 @@ export default function Contact() {
                             I'm currently open to new opportunities and collaborations. Don't hesitate to reach out!
                         </p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
