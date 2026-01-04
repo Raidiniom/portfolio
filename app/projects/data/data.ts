@@ -17,4 +17,10 @@ export const project_details = [
         screenshot: "./project_img/placeholder_cert.jpg",
         link: "https://github.com/Raidiniom/GameWikia",
     },
+    {
+        title: "RaceTrack",
+        description: "Event Management",
+        screenshot: "./project_img/racetrack.png",
+        link: "https://github.com/Raidiniom/racetrack",
+    },
 ]

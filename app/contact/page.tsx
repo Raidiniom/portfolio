@@ -19,7 +19,7 @@ export default function Contact() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
                     {/* LinkedIn Card */}
                     <a 
-                        href="https://linkedin.com/in/yourusername" 
+                        href="https://www.linkedin.com/in/voltaire-ratilla-8b8a853a2/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="group bg-noel-silver border border-border rounded-xl p-6 text-center hover:border-noel-teal hover:shadow-lg transition-all duration-300"
@@ -57,7 +57,7 @@ export default function Contact() {
 
                     {/* Email Card */}
                     <a 
-                        href="mailto:your.email@example.com" 
+                        href="mailto:voltaireratilla@gmail.com" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="group bg-noel-silver border border-border rounded-xl p-6 text-center hover:border-noel-teal hover:shadow-lg transition-all duration-300"
