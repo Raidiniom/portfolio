@@ -11,14 +11,12 @@ export default function Home() {
     ]
 
     const skilltech_list = [
-        'Next.js',
-        'React',
-        'Node.js',
-        'Git',
-        'REST APIs',
-        'Linux OS',
-        'Cisco',
-        'Virtual Machines'
+        'Linux',
+        'Network Infrastructure',
+        'Virtual Machines',
+        'GNS3',
+        'VMware',
+        'Digital Forensics',
     ]
 
     return (
@@ -37,7 +35,7 @@ export default function Home() {
                             {/* Profile Image */}
                             <div className="w-68 h-68 rounded-full bg-gradient-to-br from-noel-teal to-noel-mint mb-6 flex items-center justify-center overflow-hidden">
                                 <img 
-                                    src="/placeholder_me.jpg" 
+                                    src="/voltaire_ratilla.jpg" 
                                     alt="Voltaire Profile" 
                                     className="w-full h-full object-cover"
                                 />
@@ -48,9 +46,7 @@ export default function Home() {
                             <div className="text-left w-full">
                                 <h3 className="text-xl font-semibold text-noel-teal mb-3">Introduction:</h3>
                                 <p className="text-foreground/90 leading-relaxed">
-                                    Hello! I'm Voltaire, a passionate developer who loves exploring technologies, 
-                                    both old and new! I enjoy creating elegant solutions to complex problems 
-                                    and continuously learning in the ever-evolving tech landscape.
+                                    Great Tidings! 
                                 </p>
                             </div>
                         </div>
