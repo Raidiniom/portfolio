@@ -41,7 +41,7 @@ export default function Home() {
                                 />
                             </div>
                             
-                            <h2 className="text-3xl font-bold text-foreground mb-4">Voltaire Ratilla</h2>
+                            <h2 className="text-3xl font-bold text-accent-light mb-4">Voltaire Ratilla</h2>
                             
                             <div className="text-left w-full">
                                 <h3 className="text-xl font-semibold text-noel-teal mb-3">Introduction:</h3>

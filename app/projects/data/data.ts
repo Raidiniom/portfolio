@@ -1,8 +1,8 @@
 export const project_details = [
     {
         title: "AgriKita",
-        description: "Online Marketplace for Farmers",
-        screenshot: "./project_img/AgriKIta_placeholder.png",
+        description: "An Online Marketplace for Farmers",
+        screenshot: "./project_img/agrikita_2.jpg",
         link: "https://github.com/Gnashal/AgriKita",
     },
     {
@@ -14,7 +14,7 @@ export const project_details = [
     {
         title: "GameWikia",
         description: "Game Wiki on an App!",
-        screenshot: "./project_img/placeholder_cert.jpg",
+        screenshot: "./work_in_progress.jpg",
         link: "https://github.com/Raidiniom/GameWikia",
     },
     {
@@ -22,5 +22,11 @@ export const project_details = [
         description: "Event Management",
         screenshot: "./project_img/racetrack.png",
         link: "https://github.com/Raidiniom/racetrack",
+    },
+    {
+        title: "WarOfOop",
+        description: "2D Auto Battler Game made in Java",
+        screenshot: "./work_in_progress.jpg",
+        link: "https://github.com/Gnashal/WarOfOop",
     },
 ]
