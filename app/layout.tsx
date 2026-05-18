@@ -14,8 +14,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Voltaire's Portfolio",
-  description: "Voltaire's Portfolio",
+  title: "Voltaire Ratilla | IT Student & Network Enthusiast",
+  description: "Portfolio of Voltaire Ratilla — IT student from Cebu, Philippines specializing in networking, cybersecurity, digital forensics, and Linux systems.",
+  keywords: ["Voltaire Ratilla", "IT student", "portfolio", "networking", "cybersecurity", "digital forensics", "Cebu", "Philippines"],
+  openGraph: {
+    title: "Voltaire Ratilla | IT Student & Network Enthusiast",
+    description: "Portfolio of Voltaire Ratilla — IT student from Cebu, Philippines.",
+    type: "website",
+    locale: "en_PH",
+    images: [
+      {
+        url: "/voltaire_ratilla.jpg",
+        width: 800,
+        height: 800,
+        alt: "Voltaire Ratilla",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "Voltaire Ratilla | IT Student & Network Enthusiast",
+    description: "Portfolio of Voltaire Ratilla — IT student from Cebu, Philippines.",
+  },
 };
 
 export default function RootLayout({
