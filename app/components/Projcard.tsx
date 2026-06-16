@@ -51,7 +51,7 @@ export default function Projcard({ title, description, screenshot, link }: Projp
             <div className="p-5 text-center">
                 <h2 className="text-2xl font-bold text-foreground mb-3 group-hover:text-noel-teal transition-colors">{title}</h2>
 
-                <p className="text-foreground/70 mb-5 line-clamp-2 leading-relaxed text-sm">
+                <p className="text-foreground/70 mb-5 line-clamp-10 leading-relaxed text-sm">
                     {description}
                 </p>
 
