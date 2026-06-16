@@ -57,9 +57,10 @@ export default function Home() {
     const programming_lang = [
         { name: 'C', level: 'Proficient' },
         { name: 'Java', level: 'Proficient' },
-        { name: 'Python', level: 'Proficient' },
+        { name: 'Python', level: 'Familiar' },
         { name: 'TypeScript', level: 'Familiar' },
         { name: 'JavaScript', level: 'Familiar' },
+        { name: 'Godot Script', level: 'Familiar' },
         { name: 'SQL', level: 'Proficient' },
     ];
 
@@ -118,10 +119,10 @@ export default function Home() {
                         <div className="text-left w-full">
                             <h3 className="text-xl font-semibold text-noel-teal mb-3">Introduction</h3>
                             <p className="text-foreground/80 leading-relaxed mb-4">
-                                Great Tidings! I'm Voltaire, an IT student with a passion for networking, cybersecurity, and building reliable systems. I enjoy working hands-on with Linux environments, virtual machines, and network simulations.
+                                Hey there! I'm Voltaire, an IT student with a soft spot for networking, cybersecurity, and building things that actually work. I love getting hands-on — whether that's a Linux setup, a network simulation, or just poking around to see how systems tick.
                             </p>
                             <p className="text-foreground/80 leading-relaxed">
-                                Currently exploring digital forensics and deepening my understanding of network infrastructure. I'm looking for opportunities where I can apply and grow my technical skills in a real-world setting.
+                                Currently brushing up on Linux, Cisco networking, and system administration because the fundamentals always hit different. Looking for a place where I can bring my skills, learn from real challenges, and maybe break a few things responsibly along the way.
                             </p>
                         </div>
 
@@ -195,7 +196,7 @@ export default function Home() {
                     {/* Currently Learning */}
                     <div className="mt-6 p-4 rounded-xl bg-noel-warning/10 border border-noel-warning/25">
                         <p className="text-xs font-semibold uppercase tracking-widest text-noel-warning mb-1">Currently Learning</p>
-                        <p className="text-foreground/80 text-sm">Preparing for CCNA certification · Deepening Digital Forensics skills</p>
+                        <p className="text-foreground/80 text-sm">Reviewing Linux OS · Cisco Networking Infrastructure · System Administration</p>
                     </div>
                 </div>
             </div>
