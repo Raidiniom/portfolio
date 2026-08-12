@@ -57,11 +57,13 @@ export default function Home() {
     const programming_lang = [
         { name: 'C', level: 'Proficient' },
         { name: 'Java', level: 'Proficient' },
-        { name: 'Python', level: 'Familiar' },
-        { name: 'TypeScript', level: 'Familiar' },
-        { name: 'JavaScript', level: 'Familiar' },
-        { name: 'Godot Script', level: 'Familiar' },
         { name: 'SQL', level: 'Proficient' },
+        { name: 'Python', level: 'Familiar' },
+        { name: 'Go', level: 'Familiar' },
+        { name: 'TypeScript', level: 'Familiar' },
+        { name: 'Godot Script', level: 'Familiar' },
+        { name: 'HTML', level: 'Proficient' },
+        { name: 'CSS', level: 'Proficient' },
     ];
 
     const skilltech_list = [
@@ -195,7 +197,7 @@ export default function Home() {
 
                     {/* Currently Learning */}
                     <div className="mt-6 p-4 rounded-xl bg-noel-warning/10 border border-noel-warning/25">
-                        <p className="text-xs font-semibold uppercase tracking-widest text-noel-warning mb-1">Currently Learning</p>
+                        <p className="text-xs font-semibold uppercase tracking-widest text-noel-warning mb-1">Current Activity!</p>
                         <p className="text-foreground/80 text-sm">Reviewing Linux OS · Cisco Networking Infrastructure · System Administration</p>
                     </div>
                 </div>

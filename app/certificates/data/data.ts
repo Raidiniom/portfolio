@@ -24,6 +24,7 @@ export const certificate_details = [
         date_issued: "November 18, 2025",
         image: "./certificate_img/Junior_Cybersecurity_Analyst_Career_Path_certificate_07402931-usc-edu-ph_7fdcdab3-abac-4354-904f-5999ea846118_page-0001.jpg",
     },
+    
     // {
     //     title: "Certificate #5",
     //     issued_by: "",

@@ -17,18 +17,6 @@ export const project_details = [
         screenshot: "./project_img/no_screenshot.png",
         link: "https://github.com/CallenCaracy/IAS_Final_Project",
     },
-    // {
-    //     title: "Read_Mangakas",
-    //     description: "Manga, Manwha, and Manhua reading website",
-    //     screenshot: "./project_img/Read_Mangakas.png",
-    //     link: "https://github.com/Raidiniom/Read_MangaKas",
-    // },
-    // {
-    //     title: "GameWikia",
-    //     description: "Game Wiki on an App!",
-    //     screenshot: "./project_img/no_screenshot.png",
-    //     link: "https://github.com/Raidiniom/GameWikia",
-    // },
     {
         title: "RaceTrack",
         description: "Straightforward event management system built to keep race events organized from registration to finish line.",
@@ -47,4 +35,16 @@ export const project_details = [
         screenshot: "./project_img/escape_from_iserlohn.png",
         link: "https://github.com/Raidiniom/EscapeFromIserlohn",
     },
+    // {
+    //     title: "Read_Mangakas",
+    //     description: "Manga, Manwha, and Manhua reading website",
+    //     screenshot: "./project_img/Read_Mangakas.png",
+    //     link: "https://github.com/Raidiniom/Read_MangaKas",
+    // },
+    // {
+    //     title: "GameWikia",
+    //     description: "Game Wiki on an App!",
+    //     screenshot: "./project_img/no_screenshot.png",
+    //     link: "https://github.com/Raidiniom/GameWikia",
+    // },
 ]
