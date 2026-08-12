@@ -31,6 +31,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+  icons: {
+    icon: "/logo.svg"
+  },
   twitter: {
     card: "summary",
     title: "Voltaire Ratilla | IT Student & Network Enthusiast",
