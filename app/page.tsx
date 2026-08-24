@@ -93,7 +93,7 @@ export default function Home() {
                     Welcome to My Portfolio
                 </h1>
                 {/* Typewriter subtitle */}
-                <p className="text-xl text-noel-shadow-dark font-mono min-h-7">
+                <p className="text-xl text-black font-mono min-h-7">
                     {typewriterText}
                     <span className="inline-block w-0.5 h-5 bg-noel-teal ml-0.5 animate-pulse align-middle"></span>
                 </p>
