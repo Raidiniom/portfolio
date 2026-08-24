@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <div className="min-h-screen px-4 py-12 flex items-center justify-center">
             <div className="w-full max-w-4xl">
-                {/* Page Header */}
+                {/* Page Title Header */}
                 <div className="text-center mb-12">
                     <h1 className="text-4xl md:text-5xl font-bold text-noel-teal mb-4">
                         Get In Touch

@@ -46,9 +46,15 @@ export default function Home() {
     }, []);
 
     const typewriterPhrases = [
-        'IT Student',
-        'Network Enthusiast',
-        'Digital Forensics Learner',
+        'Computer Rangler',
+        'Packet Data Looker',
+        'sudo Make it work, no mistakes',
+        'Future SusAdmin',
+        'IT College Student Shouts at Clouds',
+        'Dismantle Responsibly',
+        'Terminaly Terminal',
+        'V, Good to Go Sir!!!',
+        'Work, Work, Okey Dokey',
         'Open to Opportunities',
     ];
 
@@ -62,6 +68,7 @@ export default function Home() {
         { name: 'Go', level: 'Familiar' },
         { name: 'TypeScript', level: 'Familiar' },
         { name: 'Godot Script', level: 'Familiar' },
+        { name: 'C#', level: 'Familiar' },
         { name: 'HTML', level: 'Proficient' },
         { name: 'CSS', level: 'Proficient' },
     ];
@@ -128,17 +135,53 @@ export default function Home() {
                             </p>
                         </div>
 
-                        {/* Resume download */}
-                        {/* <a
-                            href="/resume.pdf"
-                            download
-                            className="mt-6 w-full inline-flex items-center justify-center gap-2 px-5 py-3 bg-noel-teal text-noel-black font-semibold rounded-xl hover:bg-noel-teal-bright transition-colors"
-                        >
-                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                            </svg>
-                            Download CV / Resume
-                        </a> */}
+                        <div className="mt-6 flex flex-col sm:flex-row gap-4 w-full">
+                            {/* Resume download */}
+                            <a
+                                href="/VoltaireRatillaResume.pdf"
+                                download
+                                className="flex-1 inline-flex items-center justify-center gap-2 px-5 py-4 text-black font-semibold rounded-xl hover:bg-[#68c8ba82] transition-colors bg-noel-teal-bright/40"
+                            >
+                                <svg
+                                    className="w-5 h-5 shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                                    />
+                                </svg>
+
+                                <span>Download Resume</span>
+                            </a>
+
+                            {/* CV download */}
+                            <a
+                                href="/VoltaireRatillaCV.pdf"
+                                download
+                                className="flex-1 inline-flex items-center justify-center gap-2 px-5 py-4 text-black font-semibold rounded-xl hover:bg-[#68c8ba82] transition-colors bg-noel-teal-bright/40"
+                            >
+                                <svg
+                                    className="w-5 h-5 shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                                    />
+                                </svg>
+
+                                <span>Download CV</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
