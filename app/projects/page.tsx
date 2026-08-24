@@ -9,7 +9,7 @@ export default function Projects() {
             {/* Page Title Header */}
             <div className="text-center pt-10 pb-4 px-6">
                 <h1 className="text-4xl md:text-5xl font-bold text-noel-teal mb-3">Projects</h1>
-                <p className="text-foreground/70 text-lg max-w-xl mx-auto">
+                <p className="text-black text-lg max-w-xl mx-auto">
                     A collection of things I've built, explored, and learned from.
                 </p>
             </div>

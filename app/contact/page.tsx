@@ -10,7 +10,7 @@ export default function Contact() {
                     <h1 className="text-4xl md:text-5xl font-bold text-noel-teal mb-4">
                         Get In Touch
                     </h1>
-                    <p className="text-foreground/80 text-lg max-w-2xl mx-auto">
+                    <p className="text-lg text-black max-w-2xl mx-auto">
                         Feel free to reach out for collaborations, opportunities, or just to say hello!
                     </p>
                 </div>
