@@ -134,54 +134,6 @@ export default function Home() {
                                 Currently brushing up on Linux, Cisco networking, and system administration because the fundamentals always hit different. Looking for a place where I can bring my skills, learn from real challenges, and maybe break a few things responsibly along the way.
                             </p>
                         </div>
-
-                        <div className="mt-6 flex flex-col sm:flex-row gap-4 w-full">
-                            {/* Resume download */}
-                            <a
-                                href="/VoltaireRatillaResume.pdf"
-                                download
-                                className="flex-1 inline-flex items-center justify-center gap-2 px-5 py-4 text-black font-semibold rounded-xl hover:bg-[#68c8ba82] transition-colors bg-noel-teal-bright/40"
-                            >
-                                <svg
-                                    className="w-5 h-5 shrink-0"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth={2}
-                                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-                                    />
-                                </svg>
-
-                                <span>Download Resume</span>
-                            </a>
-
-                            {/* CV download */}
-                            <a
-                                href="/VoltaireRatillaCV.pdf"
-                                download
-                                className="flex-1 inline-flex items-center justify-center gap-2 px-5 py-4 text-black font-semibold rounded-xl hover:bg-[#68c8ba82] transition-colors bg-noel-teal-bright/40"
-                            >
-                                <svg
-                                    className="w-5 h-5 shrink-0"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth={2}
-                                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-                                    />
-                                </svg>
-
-                                <span>Download CV</span>
-                            </a>
-                        </div>
                     </div>
                 </div>
 
